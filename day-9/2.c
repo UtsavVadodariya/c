@@ -11,16 +11,16 @@ main(){
     printf("Press 3 for Gujarati\n");
 
 
-    printf("Enter your chice :");
+    printf("Enter your choice :");
     scanf("%d",&a);
 
-    switch (a)
+switch (a)
     {
-    case 1:
+case 1:
     printf("Press 1 for Internet Recharge\n");
     printf("Press 2 for Top-up Recharge\n");
     printf("Press 3 for Special Recharge\n");
-    printf("Enter your chice :");
+    printf("Enter your type :");
     scanf("%d",&a);
 
         switch (a)
@@ -37,33 +37,35 @@ main(){
 
         
         default:
+        printf("Not Available");
             break;
         }
             break;
 
 
-    case 2:
-    printf("Press 1 for Internet Recharge\n");
-    printf("Press 2 for Top-up Recharge\n");
-    printf("Press 3 for Special Recharge\n");
-    printf("Enter your chice :");
+case 2:
+    printf("Internet Recharge ke liye 1 dabaiye\n");
+    printf("Top-up Recharge ke liye 2 dabaiye\n");
+    printf("Special Recharge ke liye 3 dabaiye\n");
+    printf("Enter your choice :");
     scanf("%d",&b);
 
 
             switch (b)
         {
         case 1:
-        printf("You have successfully done a Internet Recharge.");
+        printf("Aapne safaltapurvak Internet Recharge kar liya he.");
             break;
         case 2:
-        printf("You have successfully done a Top-up Recharge");
+        printf("Aapne safaltapurvak Top-up Recharge kar liya he.");
             break;
         case 3:
-        printf("You have successfully done a Special Recharge.");
+        printf("Aapne safaltapurvak Special Recharge Recharge kar liya he.");
             break;
 
 
     default:
+    printf("Not Available");
         break;
     }
             break;
@@ -72,10 +74,10 @@ main(){
 
 
 
-        case 3:
-    printf("Press 1 for Internet Recharge\n");
-    printf("Press 2 for Top-up Recharge\n");
-    printf("Press 3 for Special Recharge\n");
+case 3:
+    printf("Internet Recharge mate 1 dabavo\n");
+    printf("Top-up Recharge mate 2 dabavo\n");
+    printf("Special Recharge mate 3 dabavo\n");
     printf("Enter your chice :");
     scanf("%d",&c);
 
@@ -83,13 +85,13 @@ main(){
             switch (c)
         {
         case 1:
-        printf("You have successfully done a Internet Recharge.");
+        printf("Tame safaltapurvak Internet Recharge karyu chhe.");
             break;
         case 2:
-        printf("You have successfully done a Top-up Recharge");
+        printf("Tame safaltapurvak Top-up karyu chhe.");
             break;
         case 3:
-        printf("You have successfully done a Special Recharge.");
+        printf("Tame safaltapurvak Special Recharge karyu chhe.");
             break;
 
 
@@ -98,6 +100,7 @@ main(){
 
 
     default:
+    printf("Not Available");
         break;
     }
 
