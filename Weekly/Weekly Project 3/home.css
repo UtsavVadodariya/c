@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    height: 52.79px;
+    width: 110px;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.m1{
+    background-color: white;
+    position: fixed;
+    top: 4%;
+    left: 6%;
+    height: 90px;
+}
+::-webkit-scrollbar{
+    width: 0%;
+}
+.b1 button{
+    height: 42px;
+    width: 216.2px;
+    border: 1px solid #ff6e40;
+    background-color: #ff6e40;
+    color: white;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.main1{
+    height: 110vh;
+    margin-top: -18px;
+    background-color: #FF6E40;
+    background-image: url(img/104.png);
+    background-size:1071px 628px ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main1 .row{
+    background-image: url(img/105.png);
+    background-size:1071px 628px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.main1 .col{
+    background-image: url(img/106.png);
+    background-size:1071px 628px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
