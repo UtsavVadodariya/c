@@ -40,24 +40,24 @@
     border-radius: 7px;
 }
 .main1{
-    height: 110vh;
+    height: 120vh;
     margin-top: -18px;
     background-color: #FF6E40;
     background-image: url(img/104.png);
-    background-size:1071px 628px ;
-    background-position: center;
+    background-size:1238px 708px ;
+    background-position: center; 
     background-repeat: no-repeat;
 }
 .main1 .row{
     background-image: url(img/105.png);
-    background-size:1071px 628px ;
+    background-size:1281px 708px ;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
 }
 .main1 .col{
     background-image: url(img/106.png);
-    background-size:1071px 628px ;
+    background-size:1051px 596px ;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
