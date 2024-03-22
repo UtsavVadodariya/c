@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar-brand img{
     height: 52.79px;
     width: 110px;
@@ -16,15 +17,16 @@
 .navbar-nav{
     margin-left: 10px;
 }
+::-webkit-scrollbar{
+    width: 0%;
+}
 .m1{
     background-color: white;
     position: fixed;
     top: 4%;
     left: 6%;
     height: 90px;
-}
-::-webkit-scrollbar{
-    width: 0%;
+    z-index: 2;
 }
 .b1 button{
     height: 42px;
@@ -48,17 +50,134 @@
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+@keyframes animate1{
+    50%{
+        position: relative;
+        top: 5vh;
+    }
+}
 .main1 .row{
     background-image: url(img/105.png);
     background-size:1281px 708px ;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 120vh;
+
 }
 .main1 .col{
     background-image: url(img/106.png);
-    background-size:1051px 596px ;
+    background-size:1051px 596px;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 120vh;
+    position: relative;
+    top: 0vh;
+    z-index: 1;
+    animation: animate1 5s linear infinite;
+
+}
+
+
+.main2{
+    border: 1px solid;
+}
+.main3 img{
+    height: 517.11px;
+    width: 1212px;
+}
+.main4{
+    border: 1px solid red;
+}
+.c1{
+    padding: 15px;
+}
+.c-3{
+    padding: 10px;
+}
+.c-1 h1{
+    font-size: 35px;
+    color: #ff6e40;
+    font-family: "Cookie", cursive;
+}
+.c-2 h1{
+    font-size: 32px;
+    color: #16527f;
+    font-family: "Jost", sans-serif;
+    margin-top: 10px;
+}
+.c-4{
+    width: 100%;
+    height: 44.8px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.c-5{
+    height: 44.8px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-6{
+    padding-left: 10px;
+}
+.c-6 p{
+    font-size: 14px;
+    color: #777777;
+    font-family: "Montserrat", sans-serif;
+}
+.c-3 p{
+    font-size: 16px;
+    color: #2d2d2d;
+    font-family: "Indie Flower", cursive;
+    font-weight: 600;
+    margin-left: 100px;
+    display: inline-block;
+}
+.c-3 svg{
+    margin-left: 20px;
+}
+.x1{
+    padding: 15px;
+    padding-top: 50px;
+}   
+
+.c10{
+    display: flex;
+    background-image: url(img/109.png);
+    height: auto;
+    width: 81%;
+}
+.c11{
+    height: 140px;
+    width: 215.78px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c11 img{
+    height: 140px;
+    width: 140px;
+}
+.c12{
+    height: auto;
+    width: 81%;
+    display: flex;
+}
+.c13{
+    width: 215.78px;
+    margin-left: 10px;
+}
+.c13 h4{
+    color: #16527f;
+    font-family: "Jost", sans-serif;
+    font-size: 26px;
+    margin-top: 15px;
+}
+.c13 span{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #777777;
 }
