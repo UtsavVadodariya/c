@@ -79,15 +79,10 @@
 }
 
 
-.main2{
-    border: 1px solid;
-}
+
 .main3 img{
     height: 517.11px;
     width: 1212px;
-}
-.main4{
-    border: 1px solid red;
 }
 .c1{
     padding: 15px;
@@ -180,4 +175,34 @@
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     color: #777777;
+}
+.c14{
+    width: 81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 0px;
+}
+.c14 button{
+    height: 33.48px;
+    width: 188.18px;
+    background-color: #ff6e40;
+    color: white;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 7px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bold;
+}
+
+
+
+.main5{
+    height: 434.54px;
+    border: 1px solid;
+    background-image: url(img/114.jpg);
+}
+.main5 .fi{
+    color: transparent;
 }
