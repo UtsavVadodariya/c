@@ -10,6 +10,6 @@ main(){
     scanf("%d",&a);
 
 
-    (a/2)? printf("This is Even.."): printf("THis is Odd..");
+    (a%2==0)? printf("This is Even.."): printf("THis is Odd..");
     
 }
