@@ -14,4 +14,4 @@ main()
 
         printf("%c", val[i]);
     }
-}
+} 
