@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+}
+
+.navbar-brand img {
+    width: 121.24px;
+    height: 18px;
+    margin-left: 100px;
+}
+
+.nav-item a {
+    font-size: 14px;
+    color: white;
+    font-family: "Hind", sans-serif;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+.main1 {
+    height: 100vh;
+    margin-top: -65px;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1), rgba(0, 0, 0, 50)), url(img/100.jpg);
+    background-position: center;
+    background-size: 100;
+    padding-top: 120px;
+}
+
+.main1 h1 {
+    font-size: 23px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+.main1 img {
+    width: 518px;
+    height: 223px;
+    animation: animation1 5s linear infinite;
+}
+
+@keyframes animation1 {
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+
+.main2{
+    
+}

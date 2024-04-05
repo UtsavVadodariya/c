@@ -3,7 +3,11 @@
 #include <stdio.h>
 main()
 {
-    char val[] = "hello world";
+    char val[] = user[100],user[100];
+    
+
+    printf("Enter Value of Char :");
+    scanf("%s",&user[100]);
 
     for (int i = 0; val[i] != NULL; i++)
     {
