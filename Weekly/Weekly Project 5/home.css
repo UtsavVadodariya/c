@@ -30,7 +30,7 @@
 }
 
 .main1 {
-    height: 100vh;
+    height: 800px;
     margin-top: -65px;
     background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1), rgba(0, 0, 0, 50)), url(img/100.jpg);
     background-position: center;
@@ -43,7 +43,7 @@
     color: white;
     font-family: "Playfair Display", serif;
     letter-spacing: 2px;
-}~
+}
 
 .main1 img {
     width: 518px;
@@ -59,5 +59,36 @@
 
 
 .main2{
-    
+    border: 1px solid;
+    height: 755.4px;
+    background-color: black;
+}
+.main2 .d1{
+    padding-top: 100px;
+}
+.d1 .d2{
+    height: 40px;
+    width: 0.5px;
+    border: 1px solid white;
+    margin: 0px 0px 40px;
+}
+
+.d3{
+    border: 1px solid white;
+}
+.d3 h6{
+    font-size: 12px;
+    color: #bcbcbc;
+    font-family: "Hind", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+}
+.d3 h2{
+    font-size: 50px;
+    font-family: "Hind", sans-serif;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
