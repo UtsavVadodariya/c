@@ -5,9 +5,9 @@ void swap(int *n1, int *n2)
 {
     int *t;
 
-    t = *n1;
-    *n1 = *n2;
-    *n2 = t;
+    t = n1;
+    n1 = n2;
+    n2 = t;
     printf("The swap Value is :");
     printf("%d %d", *n1, *n2);
 }
