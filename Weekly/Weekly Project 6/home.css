@@ -1,0 +1,284 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    top: 0px;
+}
+
+.navbar-brand img{
+    height: 67px;
+    width: 141px;
+    margin-left: 40px;
+}
+
+.nav-item a{
+    font-size: 15px;
+    color: white;
+    font-family: "Marcellus", serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    letter-spacing: 1px;
+}
+.nv a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+.nv a{
+  margin-left: 23px;
+}
+.nv1 a:hover{
+    color: white;
+}
+.nv1 a{
+  margin-left: 5px;
+
+}
+
+.navbar-nav{
+  margin-left: 580px;
+}
+
+.div{
+  overflow: hidden;
+}
+#row1{
+  position: absolute;
+  top: 0px;
+}
+.main1{
+  height: 102vh;
+  margin-top: -100px;
+  background-image: url(img/106.jpg);
+  background-position: center;
+  animation: animate1 5s linear infinite;
+}
+
+@keyframes animate1{
+  50%{
+    transform: scale(1.02);
+  }
+}
+
+#row1 {
+  padding-top: 170px;
+  padding-left: 350px;
+}
+.im{
+  height: 135px;
+  width: 137px;
+}
+#row1 h1{
+  font-size: 100px;
+  color: white;
+  font-family: "Marcellus", serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.im1{
+  height: 25px;
+  width: 180px;
+}
+#row1 p{
+  font-size: 18px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+#row1 button{
+  height: 63.7px;
+  width: 197.08px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding: 23px 50px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+#row1 button:hover{
+  background-color: #BE9C79;
+  transition-duration: 1s;
+  border: 1px solid #BE9C79;
+}
+
+
+.main2{
+  padding: 123px 0px 0px;
+}
+.main2 .col img{
+  height: 475.15px;
+  width: 520px;
+}
+
+.d1{
+  display: flex;
+  height: 109px;
+  margin-bottom: 40px;
+}
+.d2{
+  height: 100%;
+  width: 305px;
+  text-align: end;
+}
+.main2 .d3 img{
+  height: 29px;
+  width: 52px;
+  margin-left: 100%;
+}
+.d2 a{
+  font-size: 20px;
+  color: #262626;
+  font-family: "Marcellus", serif;
+  text-decoration: none;
+}
+.d2 p{
+  font-size: 15px;
+  color: #656565;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+
+.main3{
+  border: 1px solid;
+  height: 601.6px;
+  margin-top: 100px;
+  background-image: url(img/118.jpg);
+  background-size:205% 200%;
+  background-position:top;
+  background-attachment: fixed;
+}
+.main3 .row{
+  padding: 160px 0px 170px;
+}
+.main3 h2{
+  font-size: 45px;
+  color: white;
+  font-family: "Marcellus", serif;
+
+}
+.main3 img{
+  height: 24px;
+  width: 189px;
+}
+.d4{
+  margin-left: -300px;
+}
+.d4 h6{
+  font-size: 18px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin: 20px 0px 0px;
+  margin-bottom: 48px;
+}
+.d4 button{
+  border: 1px solid white;
+  height: 53.4px;
+  width: 154.98px;
+  font-size: 12px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 19px 35p;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+.d4 button:hover{
+  background-color: #BE9C79;
+  transition-duration: 1s;
+  border: 1px solid #BE9C79;
+}
+
+
+.main4{
+  height: 362.7px;
+  padding: 120px 0px 0px;
+}
+.main4 h2{
+  font-size: 45px;
+  font-family: "Marcellus", serif;
+  color: #262626;
+}
+.main4 h6{
+  font-size: 18px;
+  color: #262626;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 0px 0px;
+  font-weight: lighter;
+  letter-spacing: 1px;  
+}
+
+.main5 .col{
+  height: 557.23px;
+}
+.main5 img{
+  height: 333.84px;
+  width: 413.33px;
+}
+.main5 h5{
+  font-size: 20px;
+  color: #262626;
+  font-family: "Marcellus", serif;
+  margin-top: 33px;
+  letter-spacing: 2px;
+}
+.main5 p{
+  font-size: 15px;
+  color: #656565;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  margin: 8px 0px 0px;
+  margin-bottom: 10px;
+}
+.main5 a{
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #262626;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.main6{
+  height: 677.09px;
+  border: 1px solid;
+  margin-top: 58px;
+  background-image: url(img/124.jpg);
+  background-position: center top;
+  background-attachment: fixed;
+}
+.main6 .row{
+  padding: 160px 15px 135px;
+}
+.main6 h2{
+  font-size: 45px;
+  color: white;
+  font-family: "Marcellus", serif;
+
+}
+.main6 p{
+  font-size: 16px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  line-height: 25px;
+  margin-bottom: 35px;
+}
+.main6 span{
+  font-size: 16px;
+  font-family: "Marcellus", serif;
+  color: white;
+}
+.main6 i{
+  font-size: 16px;
+  color: white;
+}
