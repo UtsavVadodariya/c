@@ -282,3 +282,168 @@
   font-size: 16px;
   color: white;
 }
+
+.main7{
+  height: 599px;
+  margin-top: 61px;
+}
+.d5{
+  padding: 165px 15px;
+  background-image: url(img/130.jpg);
+}
+.d5 img{
+  height: 269px;
+  width: 306px;
+}
+.d6{
+  padding: 150px 15px;
+  background-image: url(img/132.jpg);
+  background-position: center;
+}
+.d6 h3{
+  font-size: 35px;
+  color: white;
+  font-family: "Marcellus", serif;
+  letter-spacing: 4px;
+  margin-bottom: 70px;
+}
+.d7{
+  display: inline-block;
+  height: 123.7px;
+  width: 297.3px;
+}
+.d8{
+  display: inline-block;
+  height: 123.7px;
+  width: 297.3px;
+
+}
+.d7 h6{
+  margin: 20px 0px 0px ;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+.d8 h6{
+  margin: 20px 0px 0px ;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+
+.main8{
+  height: 536px;
+  padding: 130px 0px 30px;
+}
+.main8 h3{
+  font-size: 35px;
+  color: #262626;
+  font-family: "Marcellus", serif;
+
+}
+.main8 h6{
+  font-size: 18px;
+  color: #262626;
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+.main8 button{
+  font-size: 12px;
+  color: #262626;
+  font-family: "Open Sans", sans-serif;
+  padding: 19px 35px;
+  background-color: transparent;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 33px;
+}
+.main8 img{
+  margin-left: 76px;
+  margin-bottom: 70px;
+}
+.main8 button:hover{
+  background-color: #BE9C79;
+  transition-duration: 1s;
+  border: 1px solid #BE9C79;
+  color: white;
+}
+
+
+.main9{
+  height: 698px;
+  background-image: url(img/145.jpg);
+  padding: 76px 0px;
+  background-repeat: no-repeat;
+}
+.main9 img{
+  height: 76px;
+  width: 159px;
+  margin-bottom: 25px;
+}
+.main9 p{
+  font-size: 15px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+.main9 h5{
+  font-size: 20px;
+  color: white;
+  font-family: "Marcellus", serif;
+  margin-top: 70px;
+}
+.main9 span{
+  font-size: 15px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+.main9 input{
+  padding: 19px 23px;
+  background-color: transparent;
+  border: 0.1px solid white;
+  color: white;
+  width: 318px;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+::placeholder{
+  color: white;
+}
+
+.main10{
+  height: 144.8px;
+  background-color: #121212;
+}
+.main10 .row{
+  padding-top: 57px ;
+}
+.main10 .col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main10 span{
+  font-size: 15px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-left: 109.6px;
+}
+.main10 a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Marcellus", serif;
+  margin-left: 30px;
+}
+.main10 i{
+  font-size: 15px;
+  color: white;
+  margin-left: 22px;
+}
