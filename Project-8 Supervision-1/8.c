@@ -8,6 +8,7 @@ main()
 
     printf("Enter First Size Of Array :");
     scanf("%d", &a);
+
     printf("Enter Second Size Of Array :");
     scanf("%d", &b);
 
@@ -30,20 +31,17 @@ main()
         scanf("%d", &arr1[i]);
     }
 
-
-    for (int i = 0; i <a; i++)
+    for (int i = 0; i < a; i++)
     {
         for (int j = 0; j < b; j++)
         {
             if (arr[i] == arr1[j])
             {
-                printf("%d\n",arr[i]);
+                printf("%d\n", arr[i]);
                 break;
             }
-            
+
         }
-        
     }
     printf("\n");
-
 }
